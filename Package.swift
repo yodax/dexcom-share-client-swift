@@ -9,9 +9,8 @@ let package = Package(
     platforms: [.iOS(.v13)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(
-            name: "ShareClient",
-            targets: ["ShareClient", "ShareClientUI"]),
+        .library(name: "ShareClient", targets: ["ShareClient"]),
+        .library(name: "ShareClientUI", targets: ["ShareClientUI"]),
     ],
     dependencies: [
         .package(url: "https://github.com/LoopKit/LoopKit.git", .branch("package-experiment"))
@@ -27,7 +26,10 @@ let package = Package(
         ),
         .target(
             name: "ShareClientUI",
-            dependencies: ["ShareClient", .product(name: "LoopKitUI", package: "LoopKit"), "LoopKit"],
+            dependencies: [
+                "ShareClient",
+                .product(name: "LoopKitUI", package: "LoopKit"),
+                "LoopKit"],
             path: "ShareClientUI",
             exclude: ["Info.plist"]
         ),
