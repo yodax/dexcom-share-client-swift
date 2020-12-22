@@ -11,6 +11,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(name: "ShareClient", targets: ["ShareClient"]),
         .library(name: "ShareClientUI", targets: ["ShareClientUI"]),
+        .library(name: "ShareClientPlugin", targets: ["ShareClientPlugin"]),
     ],
     dependencies: [
         .package(url: "https://github.com/LoopKit/LoopKit.git", .branch("package-experiment"))
@@ -31,6 +32,16 @@ let package = Package(
                 .product(name: "LoopKitUI", package: "LoopKit"),
                 "LoopKit"],
             path: "ShareClientUI",
+            exclude: ["Info.plist"]
+        ),
+        .target(
+            name: "ShareClientPlugin",
+            dependencies: [
+                "ShareClient",
+                "ShareClientUI",
+                .product(name: "LoopKitUI", package: "LoopKit"),
+                "LoopKit"],
+            path: "ShareClientPlugin",
             exclude: ["Info.plist"]
         ),
         .testTarget(
