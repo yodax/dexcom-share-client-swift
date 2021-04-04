@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,10 +14,7 @@
 		432B0E8C1CDFC3C50045347B /* ShareClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 432B0E8B1CDFC3C50045347B /* ShareClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		432B0E931CDFC3C50045347B /* ShareClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432B0E881CDFC3C50045347B /* ShareClient.framework */; };
 		432B0E981CDFC3C50045347B /* ShareClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B0E971CDFC3C50045347B /* ShareClientTests.swift */; };
-		43A8EC7C210E661400A81379 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A8EC7B210E661400A81379 /* LoopKit.framework */; };
 		43A8EC86210E664300A81379 /* ShareClientUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A8EC84210E664300A81379 /* ShareClientUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43A8EC8A210E664C00A81379 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A8EC7B210E661400A81379 /* LoopKit.framework */; };
-		43A8EC8C210E665700A81379 /* LoopKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A8EC8B210E665600A81379 /* LoopKitUI.framework */; };
 		43A8EC90210E676500A81379 /* ShareClientSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8EC8D210E676500A81379 /* ShareClientSetupViewController.swift */; };
 		43A8EC91210E676500A81379 /* ShareClientManager+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8EC8E210E676500A81379 /* ShareClientManager+UI.swift */; };
 		43A8EC92210E676500A81379 /* ShareClientSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8EC8F210E676500A81379 /* ShareClientSettingsViewController.swift */; };
@@ -40,14 +37,18 @@
 		A9ED4D97225EB4D30080DEBA /* ShareGlucose+GlucoseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8EC9A210E68BA00A81379 /* ShareGlucose+GlucoseKit.swift */; };
 		A9ED4D98225EB4D30080DEBA /* ShareClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C418AE1CE0488900405B6A /* ShareClient.swift */; };
 		A9ED4D99225EB4D30080DEBA /* ShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8EC98210E682A00A81379 /* ShareService.swift */; };
-		A9ED4D9C225EB4D30080DEBA /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A8EC7B210E661400A81379 /* LoopKit.framework */; };
 		A9ED4D9E225EB4D30080DEBA /* ShareClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 432B0E8B1CDFC3C50045347B /* ShareClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9ED4DA0225EB4D30080DEBA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43AB5125213315D300B3D58D /* Localizable.strings */; };
 		A9ED4DAF225EB93A0080DEBA /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9ED4DAE225EB9390080DEBA /* HealthKit.framework */; };
 		B40BF26623ABD4E700A43CEE /* ShareClientPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40BF26523ABD4E700A43CEE /* ShareClientPlugin.swift */; };
 		B40BF26823ABD55200A43CEE /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40BF26723ABD55200A43CEE /* OSLog.swift */; };
 		B40BF26923ABD55200A43CEE /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40BF26723ABD55200A43CEE /* OSLog.swift */; };
-		C17D3CC62184CC26003458C8 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A8EC7B210E661400A81379 /* LoopKit.framework */; };
+		C11DA79D26196420009C92F0 /* LoopKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA79C26196420009C92F0 /* LoopKit.xcframework */; };
+		C11DA7A326196425009C92F0 /* LoopKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA79C26196420009C92F0 /* LoopKit.xcframework */; };
+		C11DA7A926196426009C92F0 /* LoopKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA79C26196420009C92F0 /* LoopKit.xcframework */; };
+		C11DA7AF26196427009C92F0 /* LoopKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA79C26196420009C92F0 /* LoopKit.xcframework */; };
+		C11DA7B52619642A009C92F0 /* LoopKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA79C26196420009C92F0 /* LoopKit.xcframework */; };
+		C11DA7BC2619643D009C92F0 /* LoopKitUI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA7BB2619643D009C92F0 /* LoopKitUI.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,11 +86,9 @@
 		432B0E921CDFC3C50045347B /* ShareClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		432B0E971CDFC3C50045347B /* ShareClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareClientTests.swift; sourceTree = "<group>"; };
 		432B0E991CDFC3C50045347B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43A8EC7B210E661400A81379 /* LoopKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A8EC82210E664300A81379 /* ShareClientUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareClientUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A8EC84210E664300A81379 /* ShareClientUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareClientUI.h; sourceTree = "<group>"; };
 		43A8EC85210E664300A81379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43A8EC8B210E665600A81379 /* LoopKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A8EC8D210E676500A81379 /* ShareClientSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareClientSetupViewController.swift; sourceTree = "<group>"; };
 		43A8EC8E210E676500A81379 /* ShareClientManager+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShareClientManager+UI.swift"; sourceTree = "<group>"; };
 		43A8EC8F210E676500A81379 /* ShareClientSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareClientSettingsViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +140,8 @@
 		B40BF26423ABD4E600A43CEE /* ShareClientPlugin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareClientPlugin-Bridging-Header.h"; sourceTree = "<group>"; };
 		B40BF26523ABD4E700A43CEE /* ShareClientPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareClientPlugin.swift; sourceTree = "<group>"; };
 		B40BF26723ABD55200A43CEE /* OSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLog.swift; sourceTree = "<group>"; };
+		C11DA79C26196420009C92F0 /* LoopKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LoopKit.xcframework; path = Carthage/Build/LoopKit.xcframework; sourceTree = "<group>"; };
+		C11DA7BB2619643D009C92F0 /* LoopKitUI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LoopKitUI.xcframework; path = Carthage/Build/LoopKitUI.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +149,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11DA79D26196420009C92F0 /* LoopKit.xcframework in Frameworks */,
 				43A8EC95210E67B000A81379 /* HealthKit.framework in Frameworks */,
-				43A8EC7C210E661400A81379 /* LoopKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +160,7 @@
 			files = (
 				A9AD06BC225ECDAC00471B4A /* HealthKit.framework in Frameworks */,
 				432B0E931CDFC3C50045347B /* ShareClient.framework in Frameworks */,
-				C17D3CC62184CC26003458C8 /* LoopKit.framework in Frameworks */,
+				C11DA7A926196426009C92F0 /* LoopKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,9 +168,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11DA7BC2619643D009C92F0 /* LoopKitUI.xcframework in Frameworks */,
+				C11DA7AF26196427009C92F0 /* LoopKit.xcframework in Frameworks */,
 				43A8EC93210E679B00A81379 /* ShareClient.framework in Frameworks */,
-				43A8EC8C210E665700A81379 /* LoopKitUI.framework in Frameworks */,
-				43A8EC8A210E664C00A81379 /* LoopKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,8 +178,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11DA7A326196425009C92F0 /* LoopKit.xcframework in Frameworks */,
 				A9ED4DAF225EB93A0080DEBA /* HealthKit.framework in Frameworks */,
-				A9ED4D9C225EB4D30080DEBA /* LoopKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11DA7B52619642A009C92F0 /* LoopKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +248,10 @@
 		43A8EC7A210E661300A81379 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C11DA7BB2619643D009C92F0 /* LoopKitUI.xcframework */,
+				C11DA79C26196420009C92F0 /* LoopKit.xcframework */,
 				43A8EC94210E67B000A81379 /* HealthKit.framework */,
 				A9ED4DAE225EB9390080DEBA /* HealthKit.framework */,
-				43A8EC8B210E665600A81379 /* LoopKitUI.framework */,
-				43A8EC7B210E661400A81379 /* LoopKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -794,7 +796,8 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -820,7 +823,11 @@
 				);
 				INFOPLIST_FILE = ShareClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -844,7 +851,11 @@
 				);
 				INFOPLIST_FILE = ShareClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -859,7 +870,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ShareClientTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClientTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -873,7 +888,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ShareClientTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClientTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -903,7 +922,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ShareClientUI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.ShareClientUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -936,7 +959,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ShareClientUI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.ShareClientUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -961,7 +988,11 @@
 				);
 				INFOPLIST_FILE = ShareClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClient;
 				PRODUCT_NAME = ShareClient;
 				SDKROOT = watchos;
@@ -990,7 +1021,11 @@
 				);
 				INFOPLIST_FILE = ShareClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClient;
 				PRODUCT_NAME = ShareClient;
 				SDKROOT = watchos;
@@ -1014,7 +1049,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ShareClientPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = mh_dylib;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -1045,7 +1084,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ShareClientPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = mh_dylib;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_FAST_MATH = YES;
