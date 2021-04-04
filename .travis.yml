@@ -2,7 +2,7 @@ language: objective-c
 osx_image: xcode12.2
 
 before_script:
-    - ./bin/carthage bootstrap --use-xcframeworks --cache-builds
+    - travis_wait ./bin/carthage bootstrap --use-xcframeworks --cache-builds
 
 script:
     # Build Travis project and run tests
