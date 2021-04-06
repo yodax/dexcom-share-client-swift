@@ -43,6 +43,8 @@
 		B40BF26623ABD4E700A43CEE /* ShareClientPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40BF26523ABD4E700A43CEE /* ShareClientPlugin.swift */; };
 		B40BF26823ABD55200A43CEE /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40BF26723ABD55200A43CEE /* OSLog.swift */; };
 		B40BF26923ABD55200A43CEE /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40BF26723ABD55200A43CEE /* OSLog.swift */; };
+		C16883D5261CC3550061EA78 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16883D4261CC3550061EA78 /* LoopKit.framework */; };
+		C16883D7261CC3640061EA78 /* LoopKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16883D6261CC3640061EA78 /* LoopKitUI.framework */; };
 		C1EC91DA261A4A9E00002B1A /* ExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC91D9261A4A9E00002B1A /* ExampleAppApp.swift */; };
 		C1EC91DC261A4A9E00002B1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC91DB261A4A9E00002B1A /* ContentView.swift */; };
 		C1EC91DE261A4A9F00002B1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1EC91DD261A4A9F00002B1A /* Assets.xcassets */; };
@@ -158,6 +160,8 @@
 		B40BF26423ABD4E600A43CEE /* ShareClientPlugin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareClientPlugin-Bridging-Header.h"; sourceTree = "<group>"; };
 		B40BF26523ABD4E700A43CEE /* ShareClientPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareClientPlugin.swift; sourceTree = "<group>"; };
 		B40BF26723ABD55200A43CEE /* OSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLog.swift; sourceTree = "<group>"; };
+		C16883D4261CC3550061EA78 /* LoopKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16883D6261CC3640061EA78 /* LoopKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EC91D7261A4A9E00002B1A /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EC91D9261A4A9E00002B1A /* ExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppApp.swift; sourceTree = "<group>"; };
 		C1EC91DB261A4A9E00002B1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -171,6 +175,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16883D7261CC3640061EA78 /* LoopKitUI.framework in Frameworks */,
+				C16883D5261CC3550061EA78 /* LoopKit.framework in Frameworks */,
 				43A8EC95210E67B000A81379 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +279,8 @@
 		43A8EC7A210E661300A81379 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C16883D6261CC3640061EA78 /* LoopKitUI.framework */,
+				C16883D4261CC3550061EA78 /* LoopKit.framework */,
 				43A8EC94210E67B000A81379 /* HealthKit.framework */,
 				A9ED4DAE225EB9390080DEBA /* HealthKit.framework */,
 			);
