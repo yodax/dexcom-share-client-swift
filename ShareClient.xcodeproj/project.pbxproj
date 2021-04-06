@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -43,22 +43,10 @@
 		B40BF26623ABD4E700A43CEE /* ShareClientPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40BF26523ABD4E700A43CEE /* ShareClientPlugin.swift */; };
 		B40BF26823ABD55200A43CEE /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40BF26723ABD55200A43CEE /* OSLog.swift */; };
 		B40BF26923ABD55200A43CEE /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40BF26723ABD55200A43CEE /* OSLog.swift */; };
-		C11DA79D26196420009C92F0 /* LoopKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA79C26196420009C92F0 /* LoopKit.xcframework */; };
-		C11DA7A326196425009C92F0 /* LoopKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA79C26196420009C92F0 /* LoopKit.xcframework */; };
-		C11DA7A926196426009C92F0 /* LoopKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA79C26196420009C92F0 /* LoopKit.xcframework */; };
-		C11DA7AF26196427009C92F0 /* LoopKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA79C26196420009C92F0 /* LoopKit.xcframework */; };
-		C11DA7B52619642A009C92F0 /* LoopKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA79C26196420009C92F0 /* LoopKit.xcframework */; };
-		C11DA7BC2619643D009C92F0 /* LoopKitUI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA7BB2619643D009C92F0 /* LoopKitUI.xcframework */; };
 		C1EC91DA261A4A9E00002B1A /* ExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC91D9261A4A9E00002B1A /* ExampleAppApp.swift */; };
 		C1EC91DC261A4A9E00002B1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC91DB261A4A9E00002B1A /* ContentView.swift */; };
 		C1EC91DE261A4A9F00002B1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1EC91DD261A4A9F00002B1A /* Assets.xcassets */; };
 		C1EC91E1261A4A9F00002B1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1EC91E0261A4A9F00002B1A /* Preview Assets.xcassets */; };
-		C1EC9208261A4AF000002B1A /* LoopKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA79C26196420009C92F0 /* LoopKit.xcframework */; };
-		C1EC9209261A4AF000002B1A /* LoopKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA79C26196420009C92F0 /* LoopKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C1EC9210261A4AF100002B1A /* LoopKitUI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA7BB2619643D009C92F0 /* LoopKitUI.xcframework */; };
-		C1EC9211261A4AF100002B1A /* LoopKitUI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C11DA7BB2619643D009C92F0 /* LoopKitUI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C1EC921E261A4B3E00002B1A /* SwiftCharts.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1EC9217261A4B2600002B1A /* SwiftCharts.xcframework */; };
-		C1EC921F261A4B3E00002B1A /* SwiftCharts.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1EC9217261A4B2600002B1A /* SwiftCharts.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,9 +87,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C1EC9211261A4AF100002B1A /* LoopKitUI.xcframework in Embed Frameworks */,
-				C1EC921F261A4B3E00002B1A /* SwiftCharts.xcframework in Embed Frameworks */,
-				C1EC9209261A4AF000002B1A /* LoopKit.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,15 +158,12 @@
 		B40BF26423ABD4E600A43CEE /* ShareClientPlugin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareClientPlugin-Bridging-Header.h"; sourceTree = "<group>"; };
 		B40BF26523ABD4E700A43CEE /* ShareClientPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareClientPlugin.swift; sourceTree = "<group>"; };
 		B40BF26723ABD55200A43CEE /* OSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLog.swift; sourceTree = "<group>"; };
-		C11DA79C26196420009C92F0 /* LoopKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LoopKit.xcframework; path = Carthage/Build/LoopKit.xcframework; sourceTree = "<group>"; };
-		C11DA7BB2619643D009C92F0 /* LoopKitUI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LoopKitUI.xcframework; path = Carthage/Build/LoopKitUI.xcframework; sourceTree = "<group>"; };
 		C1EC91D7261A4A9E00002B1A /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EC91D9261A4A9E00002B1A /* ExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppApp.swift; sourceTree = "<group>"; };
 		C1EC91DB261A4A9E00002B1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C1EC91DD261A4A9F00002B1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1EC91E0261A4A9F00002B1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1EC91E2261A4A9F00002B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1EC9217261A4B2600002B1A /* SwiftCharts.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftCharts.xcframework; path = Carthage/Build/SwiftCharts.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,7 +171,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C11DA79D26196420009C92F0 /* LoopKit.xcframework in Frameworks */,
 				43A8EC95210E67B000A81379 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,7 +181,6 @@
 			files = (
 				A9AD06BC225ECDAC00471B4A /* HealthKit.framework in Frameworks */,
 				432B0E931CDFC3C50045347B /* ShareClient.framework in Frameworks */,
-				C11DA7A926196426009C92F0 /* LoopKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +188,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C11DA7BC2619643D009C92F0 /* LoopKitUI.xcframework in Frameworks */,
-				C11DA7AF26196427009C92F0 /* LoopKit.xcframework in Frameworks */,
 				43A8EC93210E679B00A81379 /* ShareClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +196,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C11DA7A326196425009C92F0 /* LoopKit.xcframework in Frameworks */,
 				A9ED4DAF225EB93A0080DEBA /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,7 +204,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C11DA7B52619642A009C92F0 /* LoopKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,9 +211,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1EC9210261A4AF100002B1A /* LoopKitUI.xcframework in Frameworks */,
-				C1EC921E261A4B3E00002B1A /* SwiftCharts.xcframework in Frameworks */,
-				C1EC9208261A4AF000002B1A /* LoopKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,9 +273,6 @@
 		43A8EC7A210E661300A81379 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C1EC9217261A4B2600002B1A /* SwiftCharts.xcframework */,
-				C11DA7BB2619643D009C92F0 /* LoopKitUI.xcframework */,
-				C11DA79C26196420009C92F0 /* LoopKit.xcframework */,
 				43A8EC94210E67B000A81379 /* HealthKit.framework */,
 				A9ED4DAE225EB9390080DEBA /* HealthKit.framework */,
 			);
@@ -534,6 +504,8 @@
 					};
 					C1EC91D6261A4A9E00002B1A = {
 						CreatedOnToolsVersion = 12.4;
+						DevelopmentTeam = UY678SP37Q;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -892,8 +864,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -919,11 +890,7 @@
 				);
 				INFOPLIST_FILE = ShareClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -947,11 +914,7 @@
 				);
 				INFOPLIST_FILE = ShareClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -966,11 +929,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ShareClientTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClientTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleApp.app/ExampleApp";
@@ -985,11 +944,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ShareClientTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClientTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleApp.app/ExampleApp";
@@ -1020,11 +975,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ShareClientUI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.ShareClientUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1057,11 +1008,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ShareClientUI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.ShareClientUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1086,11 +1033,7 @@
 				);
 				INFOPLIST_FILE = ShareClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClient;
 				PRODUCT_NAME = ShareClient;
 				SDKROOT = watchos;
@@ -1119,11 +1062,7 @@
 				);
 				INFOPLIST_FILE = ShareClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClient;
 				PRODUCT_NAME = ShareClient;
 				SDKROOT = watchos;
@@ -1147,11 +1086,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ShareClientPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = mh_dylib;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -1182,11 +1117,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ShareClientPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = mh_dylib;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_FAST_MATH = YES;
@@ -1219,10 +1150,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ExampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.warkmilson.ExampleApp;
@@ -1251,10 +1179,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ExampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.warkmilson.ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
